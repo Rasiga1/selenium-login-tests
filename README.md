@@ -1,16 +1,28 @@
-# UI-тесты авторизации с Selenium WebDriver
+# Selenium UI-тесты для сайта авторизации
 
-Автоматизированные тесты для проверки функционала авторизации на демо-сайте.
+## 📌 Описание
 
-## Стек технологий
-- Python 3.13
-- Selenium WebDriver 4.+
-- Pytest 7.+
-- ChromeDriver (или другой WebDriver)
+UI-тесты для сайта: https://berpress.github.io/selenium-login-demo/  
+Используется Python + Selenium + pytest.  
 
-## Установка и настройка
+## ✅ Тесты
 
-1. Клонировать репозиторий:
-   ```bash
-   git clone https://github.com/Rasiga1/selenium-login-tests.git
-   cd selenium-login-tests
+- Успешный вход с логином `admin` и паролем `password`
+- Ошибка при неверном логине
+- Ошибка при неверном пароле
+
+## 🚀 Установка и запуск
+
+```bash
+git clone https://github.com/ВАШ_НИК/selenium-login-tests.git
+cd selenium-login-tests
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+pytest
+```
+
+## 🔐 Валидные данные
+
+- Логин: `admin`
+- Пароль: `password`

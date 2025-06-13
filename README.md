@@ -1,4 +1,4 @@
-````markdown
+
 # Selenium Login Tests
 
 Этот репозиторий содержит автоматизированные тесты для проверки формы входа на сайте с использованием библиотеки Selenium.
@@ -19,7 +19,7 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/rasiga1/selenium-login-tests.git
-````
+
 
 2. Установите зависимости:
 
